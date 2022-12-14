@@ -1,0 +1,11 @@
+Pipeline {
+    agent any
+
+    stages {
+        stage('compile') {
+            steps {
+                echo 'i am compiling'
+            }
+        }
+    }
+}
